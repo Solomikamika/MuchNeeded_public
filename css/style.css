@@ -1,0 +1,246 @@
+.style{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    background-color: #fbfedea3;
+}
+
+.upper-background{
+    position: relative;
+    content: "";
+    height: 250px;
+    background-color: #697c55e3;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.menu__item {
+    width: 28%;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10% 2% 2% 2%;
+    text-align: center;
+}
+
+.menu__item_user img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu__item_user-name {
+    font-size: 16px;
+    margin: auto;
+    color: #ffe8cdb0;
+}
+
+.menu__item_symbol i {
+    font-size: 15px;
+    padding: 10px;
+    color: #bdd0b6;
+    background-color: #9cb1855c;
+    border-radius: 10px;
+}
+
+.data {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    height: 170px;
+    background-color: #cbdfbb;
+    border-radius: 30px;
+}
+
+.data__item {
+    display: inline-block;
+    width: 27.5%;
+    background-color: #cbdfbb;
+    text-align: center;
+    margin: 8% 0 3% 0;
+}
+
+.data__amount {
+    font-size: 20px;
+    color: #3c3b3b;
+}
+
+.data__title {
+    font-size: 12px;
+    color: #3c3b3b;
+}
+
+.unit {
+    text-align: center;
+    background-color: #fcfee9;
+    width: 80%;
+    margin: 5% auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.unit__tool {
+
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+}
+
+.unit__tool_item {
+    font-size: 14px;
+    color: #3c3b3b;
+}
+
+.unit__tool_style {
+    background-color: #eb0808;
+    height: 100%;
+    width: 30%;
+    border-radius: 15px;
+    margin: 0;
+    box-shadow: 0px 0px 9px 3px #f0acac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__routes {
+    width: 100%;
+    margin: 32% auto auto auto;
+    text-align: center;
+}
+
+.menu__routes_title {
+    text-align: left;
+    padding-left: 3%;
+    font-size: 16px;
+    color: #3c3b3b;
+}
+
+.menu__routes_way {
+    display: inline-block;
+    padding: 3%;
+    background-color: #cbdfbb;
+    vertical-align: top;
+    height: 86px;
+    width: 12%;
+    border-radius: 15px;
+}
+
+.menu__routes_selection{
+    background-color: #eb0808;
+    box-shadow: 0px 0px 9px 3px #f0acac;
+}
+
+.menu__routes_link img {
+    padding: 1%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.menu__routes_link{
+    text-decoration: none;
+}
+
+.menu__routes_name{
+    text-align: center;
+    font-size: 12px;
+    color: #474845;
+}
+
+.map{
+    display: flex;
+    padding: 5%;
+    background-color: #798a67;
+    margin: 3%;
+    border-radius: 30px;
+}
+
+.map__window {
+    width: 50%;
+}
+
+.map__window iframe {
+    border: 0;
+    border-radius: 15px;
+}
+
+.map__data{
+    width: 49%;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.map__data_way {
+    font-size: 14px;
+    color: #3c3b3b;
+}
+
+.map__data_by-way {
+    font-size: 12px;    
+}
+
+.map__data_way-to-get {
+    padding: 3%;
+    background-color: #cbdfbb;
+    border-radius: 10px;
+    color: #3c3b3b;
+}
+
+.map__data b {
+    padding: 3%;
+    color: #3c3b3b;
+}
+
+.menu-personal-data {
+    text-align: center;
+    background-color: #cbdfbb;
+    width: 90%;
+    margin: auto;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.menu-personal-data__items {
+    display: inline-block;
+    width: 25%;
+    margin: 3% 0% 0% 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu-personal-data__profile{
+    background-color: #eb0808;
+    box-shadow: 0px 0px 9px 3px #f0acac;
+    border-radius: 10px;
+    text-align: left;
+    width: 32%;
+}
+
+.menu-personal-data__name {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 2%;
+}
+
+.menu-personal-data__name img{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.menu-personal-data__name b{
+        font-size: 12px;
+        color: #3c3b3b;
+        margin-left: 13%;
+}
+
+.menu-personal-data__items i{
+    font-size: 22px;
+    color: #3c3b3b;
+}
+
+
