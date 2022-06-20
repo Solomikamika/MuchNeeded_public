@@ -1,0 +1,245 @@
+.style{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    background-color: #fbfedea3;
+}
+
+.menu{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__item {
+    margin: auto;
+    padding: 10% 2% 2% 2%;
+    text-align: center;
+}
+
+.menu__item_user{
+    width: 30%;
+}
+
+.menu__item_user-name {
+    font-size: 14px;
+  }
+
+.menu__item_symbol i {
+    font-size: 15px;
+    padding: 10px;
+    color: #bdd0b6;
+    background-color: #9cb185;
+    border-radius: 10px;
+}
+.unit {
+    text-align: center;
+    background-color: #caf6c3;
+    width: 80%;
+    margin: 5% auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.unit__tool {
+
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+}
+
+.unit__tool_item {
+    font-size: 14px;
+    color: #3c3b3b;
+}
+
+.unit__tool_style {
+    background-color: #eb0808;
+    border-radius: 15px;
+    margin: 0;
+    box-shadow: 0px 0px 9px 3px #f0acac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.credit-card {
+    background: yellow;
+    width: 80%;
+    margin: auto;
+    border-radius: 30px;
+    height: 150px;
+    display: block;
+    text-align: left;
+    padding: 2%;
+  }
+
+  .credit-card__title {
+    font-size: 14px;
+  }
+
+  .credit-card__numbers {
+    font-size: 10px;
+  }
+
+  .credit-card__amount {
+    font-size: 14px;
+    margin: auto auto auto 30%;
+  }
+
+  .credit-card__other {
+    font-size: 8px;
+    margin: 18% 0 0 0;
+  }
+
+  .credit-card__other_info-card{
+    margin-left: 50%;
+  }
+
+  .button {
+    width: 80%;
+    margin: 4% auto auto auto;
+    height: 30px;
+  }
+
+  .button__refill {
+    border: none;
+    width: 100%;
+    background-color: #eb0808;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px 3px #f0acac;
+    height: 100%;
+    letter-spacing: 1px;
+    font-size: 14px;}
+
+    .history__title {
+        margin: 3% 3% 0% 6%;
+        padding: 2% 2% 2% 6%;
+        font-size: 16px;
+      }
+
+    .history {
+        width: 80%;
+        margin: 5% auto;
+        background-color: #6887a2;
+        padding: 2%;
+        border-radius: 30px;
+      }
+
+      .history__sort {
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        padding: 2%;
+      }
+
+      .history__sort-by{
+        padding: 2%;
+      }
+
+      .history__sort-date{
+        padding: 2%;
+        background-color: white;
+        border-radius: 10px;
+      }
+
+      .history__list {
+        padding: 3%;
+        height: 135px;
+        overflow-y: scroll;
+        overflow-x: auto;
+      }
+
+      .history__block-item{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .history__info-style, .history__info-style-2 {
+        width: 49%;
+      }
+
+      .history__block_icon {
+        padding: 3%;
+        background-color: white;
+        border-radius: 9px;
+      }
+
+      .history__block_info {
+        font-size: 12px;
+      }
+
+      .history__block_info-time {
+        font-size: 8px;
+      }
+
+      .history__block_info-amount {
+        font-size: 12px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-personal-data {
+    text-align: center;
+    background-color: #cbdfbb;
+    width: 90%;
+    margin: auto;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.menu-personal-data__items {
+    display: inline-block;
+    width: 25%;
+    margin: 3% 0% 0% 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu-personal-data__profile{
+    background-color: #eb0808;
+    box-shadow: 0px 0px 9px 3px #f0acac;
+    border-radius: 10px;
+    text-align: left;
+    width: 32%;
+}
+
+.menu-personal-data__name {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 2%;
+}
+
+.menu-personal-data__name img{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.menu-personal-data__name b{
+        font-size: 12px;
+        color: #3c3b3b;
+        margin-left: 13%;
+}
+
+.menu-personal-data__items i{
+    font-size: 22px;
+    color: #3c3b3b;
+}
