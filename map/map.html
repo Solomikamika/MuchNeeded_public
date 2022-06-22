@@ -14,37 +14,29 @@
 <body class="style">
     <div class="map">
         <div class="menu">
-            <div class="menu__item  menu__item_symbol">
-                <a href=""><i class="fa-solid fa-bell"></i></a>
-            </div>            
-            <div class="menu__item menu__item_symbol">
-                <a href=""><i class="fa-solid fa-ellipsis"></i></a>
-            </div>    
+            <a class="menu__item  menu__item_symbol">
+                <i class="fa-solid fa-bell"></i>
+            </a>            
+            <a class="menu__item menu__item_symbol">
+                <i class="fa-solid fa-ellipsis"></i>
+            </a>    
         </div>     
-        <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d10248.647765389882!2d19.9487555!3d50.0457976!3m2!1i1024!2i768!4f13.1!4m13!3e1!4m5!1s0x47165b5116ddceb7%3A0x70f579880b8f8b00!2sKopiec%20Kraka%2C%20Krak%C3%B3w!3m2!1d50.038081399999996!2d19.9584354!4m5!1s0x47165b6aa1fd5851%3A0x90f0ac1a962f9942!2sSzeroka%20Na%20Kazimierzu%2C%20Szeroka%202%2C%2033-332%20Krak%C3%B3w!3m2!1d50.0531819!2d19.947627999999998!5e0!3m2!1spl!2spl!4v1655638253315!5m2!1spl!2spl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d10248.647765389882!2d19.9487555!3d50.0457976!3m2!1i1024!2i768!4f13.1!4m13!3e1!4m5!1s0x47165b5116ddceb7%3A0x70f579880b8f8b00!2sKopiec%20Kraka%2C%20Krak%C3%B3w!3m2!1d50.038081399999996!2d19.9584354!4m5!1s0x47165b6aa1fd5851%3A0x90f0ac1a962f9942!2sSzeroka%20Na%20Kazimierzu%2C%20Szeroka%202%2C%2033-332%20Krak%C3%B3w!3m2!1d50.0531819!2d19.947627999999998!5e0!3m2!1spl!2spl!4v1655638253315!5m2!1spl!2spl" width="100%" height="450" style="border:0; margin-top: 36px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div class="menu__routes">
         <h3 class="menu__routes_title">Choose transport</h3>
-    <div class="menu__routes_item">
-        <div class="menu__routes_way">
-            <img src="images/trolleybus.png" height="60px" width="60px">
-        </div>
-        <div class="menu__routes_way">
-            <img src="images/bus.png" height="60px" width="60px">
-        </div>
-        <div class="menu__routes_way menu__routes_way-select">
-            <img src="images/bike.png" height="60px" width="60px">
-        </div>
-        <div class="menu__routes_way">
-            <img src="images/car.png" height="60px" width="60px">
-        </div>
-        <div class="menu__routes_way">
-            <img src="images/taxi.png" height="60px" width="60px">
-        </div>
+    <div class="menu__routes_item">        
+        <img src="images/trolleybus.png" class="menu__routes_way" height="35px" width="35px">   
+        <img src="images/bus.png" class="menu__routes_way" height="35px" width="35px">  
+        <img src="images/bike.png" class="menu__routes_way menu__routes_way-selected" height="35px" width="35px">        
+        <img src="images/car.png" class="menu__routes_way" height="35px" width="35px">        
+        <img src="images/taxi.png" class="menu__routes_way" height="35px" width="35px">
+        <img src="images/sailboat.png" class="menu__routes_way" height="35px" width="35px">
+        <img src="images/subway.png" class="menu__routes_way" height="35px" width="35px">        
     </div>
     </div>
-    <div class="data__routes">
-        <h3 class="menu__routes_title">Your route</h3>
+    <h3 class="menu__routes_title">Your route</h3>
+    <div class="data__routes">        
         <div class="data__ways">
             <div class="data__ways_item">
                 <h5 class="data__ways_item-title">From where</h5>
@@ -57,18 +49,17 @@
         </div>
     </div>
     <h3 class="menu__routes_title">On your way</h3>
-    <div class="menu-personal-data">
-        <div class="menu-personal-data__items">
-            <a href="http://app-design.urok.science/"><i class="fa-solid fa-user"></i></a>
-        </div>
-        <div class="menu-personal-data__items">
-            <a href="http://transport-card.urok.science/"><i class="fa-solid fa-wallet"></i></a>
-        </div>
-        <div class="menu-personal-data__items menu-personal-data__profile">
-            <span class="menu-personal-data__name">
-                <img src="images/map.png" width="40px" height="40px"><b>Map</b>
-            </span>    
-        </div>
+    <div class="menu-personal-data">        
+        <a class="menu-personal-data__items" href="../app.html">
+            <i class="fa-solid fa-user"></i>
+        </a>        
+        <a class="menu-personal-data__items" href="../transport-card/transport-card.html">
+            <i class="fa-solid fa-wallet"></i>
+        </a>
+        <figure class="menu-personal-data__items menu-personal-data__profile">
+            <img src="images/map.png" width="30px" height="30px">
+            <figcaption class="menu-personal-data__name"><b>Map</b></figcaption>            
+        </figure>
     </div>
 
     

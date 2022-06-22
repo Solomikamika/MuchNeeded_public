@@ -13,17 +13,13 @@
 </head>
 <body class="style">
     <div class="upper-background">
-        <div class="menu">
-            <div class="menu__item  menu__item_symbol">
-                <a href=""><i class="fa-solid fa-bell"></i></a>
-            </div>    
-            <div class="menu__item menu__item_user">
-                <a href=""><img src="images/profile-photo.png"></a>
+        <div class="menu">            
+            <a href="" class="menu__item  menu__item_symbol"><i class="fa-solid fa-bell"></i></a>              
+            <a href="" class="menu__item menu__item_user">
+                <img src="images/profile-photo.png">
                 <h3 class="menu__item_user-name">User Name</h3>
-            </div>
-            <div class="menu__item menu__item_symbol">
-                <a href=""><i class="fa-solid fa-ellipsis"></i></a>
-            </div>    
+            </a>            
+            <a href="" class="menu__item  menu__item_symbol"><i class="fa-solid fa-ellipsis"></i></a>                
         </div>        
     </div>
     <div class="data">
@@ -48,38 +44,38 @@
             </div>
         </div>
     </div>
-    <div class="menu__routes">
-        <h3 class="menu__routes_title">Saved routes</h3>
-        <div class="menu__routes_way">
-            <a class="menu__routes_link" href="">
+    <h3 class="menu__routes_title">Saved routes</h3>
+    <div class="menu__routes">        
+        <a href="" class="menu__routes_way">
+            <figure class="menu__routes_link">
                 <img src="images/taxi.png" height="40px" width="40px">
-                <b class="menu__routes_name">Taxi</b>
-            </a>
-        </div>        
-        <div class="menu__routes_way menu__routes_selection">
-            <a class="menu__routes_link" href="">
-                <img src="images/trolleybus.png" height="40px" width="40px">
-                <b class="menu__routes_name">Trolley</b>
-            </a>
-        </div>
-        <div class="menu__routes_way">
-            <a class="menu__routes_link" href="">
-                <img src="images/train.png" height="40px" width="40px">
-                <b class="menu__routes_name">Train</b>
-            </a>
-        </div>
-        <div class="menu__routes_way">
-            <a class="menu__routes_link" href="">
+                <figcaption class="menu__routes_name"><b>Taxi</b></figcaption>
+            </figure>
+        </a>        
+        <a href="" class="menu__routes_way">
+            <figure id="menu__routes_selected" class="menu__routes_link">
+                <img src="images/bike.png" height="40px" width="40px">
+                <figcaption class="menu__routes_name"><b>Bike</b></figcaption>
+            </figure>
+        </a>
+        <a href="" class="menu__routes_way">
+            <figure class="menu__routes_link">
+                <img src="images/bus.png" height="40px" width="40px">
+                <figcaption class="menu__routes_name"><b>Bus</b></figcaption>
+            </figure>
+        </a>        
+        <a href="" class="menu__routes_way">
+            <figure class="menu__routes_link">
                 <img src="images/car.png" height="40px" width="40px">
-                <b class="menu__routes_name">Car</b>
-            </a>
-        </div>
-        <div class="menu__routes_way">
-            <a class="menu__routes_link" href="">
-                <img src="images/subway.png" height="40px" width="40px">
-                <b class="menu__routes_name">Subway</b>
-            </a>
-        </div>
+                <figcaption class="menu__routes_name"><b>Car</b></figcaption>
+            </figure>
+        </a>        
+        <a href="" class="menu__routes_way">
+            <figure class="menu__routes_link">
+                <img src="images/train.png" height="40px" width="40px">
+                <figcaption class="menu__routes_name"><b>Train</b></figcaption>
+            </figure>
+        </a>        
     </div>
     <div class="map">
         <div class="map__window">
@@ -93,19 +89,19 @@
                 <b class="map__data_way-to-get">3 min</b></span><b>3.5 km</b>                
         </div>
     </div>
-    <h3 class="menu__routes_title">Personal propositions</h3>
+    <h3 class="menu__personal_title">Personal propositions</h3>
     <div class="menu-personal-data">
-        <div class="menu-personal-data__items menu-personal-data__profile">
-            <span class="menu-personal-data__name">
-                <img src="images/profile.png" width="40px" height="40px"><b>Profile</b>
-            </span>    
-        </div>
-        <div class="menu-personal-data__items">
+        <figure class="menu-personal-data__items menu-personal-data__profile">
+            <img src="images/profile.png" width="30px" height="30px">
+            <figcaption class="menu-personal-data__name"><b>Profile</b></figcaption>            
+        </figure>
+        <a class="menu-personal-data__items" href="transport-card/transport-card.html">
             <i class="fa-solid fa-wallet"></i>
-        </div>
-        <div class="menu-personal-data__items">
+        </a>
+        <a class="menu-personal-data__items" href="map/map.html">
             <i class="fa-solid fa-map-location-dot"></i>
-        </div>
+        </a>
     </div>
 </body>
 </html>
+

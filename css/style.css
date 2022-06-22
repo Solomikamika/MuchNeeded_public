@@ -19,6 +19,7 @@
     vertical-align: top;
     padding: 10% 2% 2% 2%;
     text-align: center;
+    text-decoration: none;
 }
 
 .menu__item_user img {
@@ -108,9 +109,9 @@
 }
 
 .menu__routes {
-    width: 100%;
-    margin: 32% auto auto auto;
-    text-align: center;
+    margin: 3% auto auto auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .menu__routes_title {
@@ -118,19 +119,17 @@
     padding-left: 3%;
     font-size: 16px;
     color: #3c3b3b;
+    margin-top: 32%;
 }
 
 .menu__routes_way {
-    display: inline-block;
-    padding: 3%;
-    background-color: #cbdfbb;
-    vertical-align: top;
-    height: 86px;
-    width: 12%;
-    border-radius: 15px;
+    width: 15%;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
 }
 
-.menu__routes_selection{
+#menu__routes_selected{
     background-color: #eb0808;
     box-shadow: 0px 0px 9px 3px #f0acac;
 }
@@ -142,12 +141,15 @@
 }
 
 .menu__routes_link{
-    text-decoration: none;
+    background-color: aqua;
+    padding: 15%;
+    margin: auto;
+    border-radius: 10px;
 }
 
 .menu__routes_name{
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     color: #474845;
 }
 
@@ -195,47 +197,52 @@
     color: #3c3b3b;
 }
 
+.menu__personal_title{
+    text-align: left;
+    padding-left: 3%;
+    font-size: 16px;
+    color: #3c3b3b;
+    margin-top: 10%; 
+}
+
 .menu-personal-data {
     text-align: center;
     background-color: #cbdfbb;
     width: 90%;
     margin: auto;
-    height: 70px;
+    height: 55px;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.menu-personal-data__items {
-    display: inline-block;
-    width: 25%;
-    margin: 3% 0% 0% 0%;
-    text-align: center;
-    vertical-align: middle;
+.menu-personal-data__items {    
+    width: 27%;
+    margin: auto;    
 }
 
 .menu-personal-data__profile{
     background-color: #eb0808;
     box-shadow: 0px 0px 9px 3px #f0acac;
-    border-radius: 10px;
+    border-radius: 15px;
     text-align: left;
-    width: 32%;
+    width: 27%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
 }
 
 .menu-personal-data__name {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding: 2%;
+    font-size: 12px;
+    color: #3c3b3b; 
+    padding-right: 10%;
 }
 
-.menu-personal-data__name img{
+.menu-personal-data__profile img{
     background-color: white;
     border-radius: 10px;
-}
-
-.menu-personal-data__name b{
-        font-size: 12px;
-        color: #3c3b3b;
-        margin-left: 13%;
 }
 
 .menu-personal-data__items i{

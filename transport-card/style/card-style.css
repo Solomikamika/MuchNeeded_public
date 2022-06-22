@@ -2,6 +2,7 @@
     font-family: 'Nunito', sans-serif;
     margin: 0;
     background-color: #fbfedea3;
+    color: #3c3b3b;
 }
 
 .menu{
@@ -75,29 +76,31 @@
     height: 150px;
     display: block;
     text-align: left;
-    padding: 2%;
+    padding: 5%;
   }
 
   .credit-card__title {
     font-size: 14px;
   }
 
-  .credit-card__numbers {
+  .credit-card__data {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .credit-card__data-numbers {
     font-size: 10px;
   }
 
-  .credit-card__amount {
-    font-size: 14px;
-    margin: auto auto auto 30%;
+  .credit-card__data-amount {
+    font-size: 14px;   
   }
 
   .credit-card__other {
     font-size: 8px;
     margin: 18% 0 0 0;
-  }
-
-  .credit-card__other_info-card{
-    margin-left: 50%;
+    display: flex;
+    justify-content: space-between;
   }
 
   .button {
@@ -118,7 +121,7 @@
 
     .history__title {
         margin: 3% 3% 0% 6%;
-        padding: 2% 2% 2% 6%;
+        padding: 2% 2% 2% 4%;
         font-size: 16px;
       }
 
@@ -166,7 +169,7 @@
       .history__block_icon {
         padding: 3%;
         background-color: white;
-        border-radius: 9px;
+        border-radius: 5px;
       }
 
       .history__block_info {
@@ -180,66 +183,47 @@
       .history__block_info-amount {
         font-size: 12px;
       }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.menu-personal-data {
-    text-align: center;
-    background-color: #cbdfbb;
-    width: 90%;
-    margin: auto;
-    height: 70px;
-    border-radius: 15px;
-}
-
-.menu-personal-data__items {
-    display: inline-block;
-    width: 25%;
-    margin: 3% 0% 0% 0%;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.menu-personal-data__profile{
-    background-color: #eb0808;
-    box-shadow: 0px 0px 9px 3px #f0acac;
-    border-radius: 10px;
-    text-align: left;
-    width: 32%;
-}
-
-.menu-personal-data__name {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding: 2%;
-}
-
-.menu-personal-data__name img{
-    background-color: white;
-    border-radius: 10px;
-}
-
-.menu-personal-data__name b{
+      .menu-personal-data {
+        text-align: center;
+        background-color: #cbdfbb;
+        width: 90%;
+        margin: auto;
+        height: 55px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .menu-personal-data__items {    
+        width: 27%;
+        margin: auto;    
+    }
+    
+    .menu-personal-data__profile{
+        background-color: #eb0808;
+        box-shadow: 0px 0px 9px 3px #f0acac;
+        border-radius: 15px;
+        text-align: left;
+        width: 27%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 40px;
+    }
+    
+    .menu-personal-data__name {
         font-size: 12px;
+        color: #3c3b3b; 
+        padding-right: 10%;
+    }
+    
+    .menu-personal-data__profile img{
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    .menu-personal-data__items i{
+        font-size: 22px;
         color: #3c3b3b;
-        margin-left: 13%;
-}
-
-.menu-personal-data__items i{
-    font-size: 22px;
-    color: #3c3b3b;
-}
+    }

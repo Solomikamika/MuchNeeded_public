@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <link rel="stylesheet" href="style/card-style.css" type="text/css">
+    <link rel="stylesheet" href="style/bootstrap.css" type="text/css">
     <script src="https://kit.fontawesome.com/ad06c39a59.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,16 +13,12 @@
     <title>transport-card</title>
 </head>
 <body class="style">
-    <div class="menu">
-        <div class="menu__item  menu__item_symbol">
-            <a href=""><i class="fa-solid fa-bell"></i></a>
-        </div>    
-        <div class="menu__item menu__item_user">
-            <h3 class="menu__item_user-name">Transport card</h3>          
-        </div>
-        <div class="menu__item menu__item_symbol">
-            <a href=""><i class="fa-solid fa-ellipsis"></i></a>
-        </div>    
+    <div class="menu">        
+        <a class="menu__item  menu__item_symbol" href="">
+            <i class="fa-solid fa-bell"></i>
+        </a>         
+        <h3 class="menu__item_user-name menu__item menu__item_user"><b>Transport card</b></h3>          
+        <a class="menu__item menu__item_symbol" href=""><i class="fa-solid fa-ellipsis"></i></a>
     </div>
     <div class="unit">
         <div class="unit__tool">
@@ -36,14 +33,12 @@
     </div>   
     <div class="credit-card">
         <h3 class="credit-card__title">
-            Public transport
+            <b>Public transport</b>
         </h3>
-        <b class="credit-card__numbers">
-            1234 5678 9012 3456
-        </b>
-        <b class="credit-card__amount">
-            $ 23.67
-        </b>
+        <div class="credit-card__data">
+            <span class="credit-card__data-numbers"><b>1234 5678 9012 3456</b></span>
+            <span class="credit-card__data-amount"><b>$ 23.67</b></span>
+        </div>
         <div class="credit-card__other">
             <span class="credit-card__other_info-zone">All city zones</span>
             <span class="credit-card__other_info-card">Exp.09/04/2024</span>
@@ -52,7 +47,7 @@
     <div class="button">
         <button class="button__refill">Refill</button>
     </div> 
-    <h3 class="history__title">History</h3>
+    <h3 class="history__title"><b>History</b></h3>
     <div class="history">
         <div class="history__sort">
             <span class="history__sort-by">Sort by:</span><span class="history__sort-date"><b>Date <i class="fa-solid fa-sort-down"></i></b></span>
@@ -120,20 +115,19 @@
             </dl>
         </dt>
     </div>    
-    <div class="menu-personal-data">
-        <div class="menu-personal-data__items">
-            <a href="http://app-design.urok.science/"><i class="fa-solid fa-user"></i></a>
-        </div>
-        <div class="menu-personal-data__items menu-personal-data__profile">
-            <span class="menu-personal-data__name">
-                <img src="images/wallet.png" width="40px" height="40px"><b>Wallet</b>
-            </span>    
-        </div>
-        <div class="menu-personal-data__items">
-            <a href="http://map-app-design.urok.science/"><i class="fa-solid fa-map-location-dot"></i></a>
-        </div>
+    <div class="menu-personal-data">        
+        <a class="menu-personal-data__items" href="../app.html">
+            <i class="fa-solid fa-user"></i>
+        </a>
+        <figure class="menu-personal-data__items menu-personal-data__profile">
+            <img src="images/wallet.png" width="30px" height="30px">
+            <figcaption class="menu-personal-data__name"><b>Wallet</b></figcaption>            
+        </figure>
+        <a class="menu-personal-data__items" href="../map/map.html">
+            <i class="fa-solid fa-map-location-dot"></i>
+        </a>
     </div>
-    
+      
     
 </body>
 </html>
