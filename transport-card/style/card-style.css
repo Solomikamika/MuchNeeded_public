@@ -1,7 +1,7 @@
 .style{
     font-family: 'Nunito', sans-serif;
     margin: 0;
-    background-color: #fbfedea3;
+    background-color: #FEFAE0;
     color: #3c3b3b;
 }
 
@@ -29,13 +29,13 @@
 .menu__item_symbol i {
     font-size: 15px;
     padding: 10px;
-    color: #bdd0b6;
-    background-color: #9cb185;
+    color: #D4A373;
+    background-color: #fefae0;
     border-radius: 10px;
 }
 .unit {
     text-align: center;
-    background-color: #caf6c3;
+    background-color: #E9EDC9;
     width: 80%;
     margin: 5% auto;
     height: 40px;
@@ -58,10 +58,10 @@
 }
 
 .unit__tool_style {
-    background-color: #eb0808;
+    background-color: #d4a373;
     border-radius: 15px;
     margin: 0;
-    box-shadow: 0px 0px 9px 3px #f0acac;
+    box-shadow: 0px 0px 9px 3px #e9edc9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +69,7 @@
 }
 
 .credit-card {
-    background: yellow;
+    background: #FAEDCD;
     width: 80%;
     margin: auto;
     border-radius: 30px;
@@ -112,9 +112,9 @@
   .button__refill {
     border: none;
     width: 100%;
-    background-color: #eb0808;
+    background-color: #d4a373;
     border-radius: 15px;
-    box-shadow: 0px 0px 9px 3px #f0acac;
+    box-shadow: 0px 0px 9px 3px #e9edc9;
     height: 100%;
     letter-spacing: 1px;
     font-size: 14px;}
@@ -128,7 +128,7 @@
     .history {
         width: 80%;
         margin: 5% auto;
-        background-color: #6887a2;
+        background-color: #e9edc9;
         padding: 2%;
         border-radius: 30px;
       }
@@ -185,7 +185,7 @@
       }
       .menu-personal-data {
         text-align: center;
-        background-color: #cbdfbb;
+        background-color: #ccd5ae;
         width: 90%;
         margin: auto;
         height: 55px;
@@ -201,8 +201,8 @@
     }
     
     .menu-personal-data__profile{
-        background-color: #eb0808;
-        box-shadow: 0px 0px 9px 3px #f0acac;
+        background-color: #faedcd;
+        box-shadow: 0px 0px 9px 3px #e0d5ba;
         border-radius: 15px;
         text-align: left;
         width: 27%;
@@ -213,8 +213,7 @@
     }
     
     .menu-personal-data__name {
-        font-size: 12px;
-        color: #3c3b3b; 
+        font-size: 12px;        
         padding-right: 10%;
     }
     
