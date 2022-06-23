@@ -6,8 +6,7 @@
 }
 
 .upper-background{
-    position: relative;
-    content: "";
+    position: relative;   
     height: 250px;
     background-color: #D4A373;
     border-radius: 0px 0px 50px 50px;
@@ -23,8 +22,7 @@
     text-decoration: none;
 }
 
-.menu__item_user{
-    text-decoration: none;
+.menu__item_user{   
     color: #faedcd;   
 }
 
@@ -49,12 +47,12 @@
 .data {
     position: absolute;
     top: 20%;
-    left: 5%;
-    right: 5%;
+    left: 0;
+    right: 0;
     width: 90%;
     margin: auto;
     text-align: center;
-    height: 170px;
+    height: 16%;
     background-color: #E9EDC9;
     border-radius: 30px;
 }
@@ -62,27 +60,26 @@
 .data__item {
     display: inline-block;
     width: 27.5%;
-    background-color: #E9EDC9;
-    text-align: center;
-    margin: 8% 0 3% 0;
+    background-color: #E9EDC9;    
+    margin: 3% 0 3% 0;
 }
 
 .data__amount {
     font-size: 20px;
-    color: #3c3b3b;
+    
 }
 
 .data__title {
     font-size: 12px;
-    color: #3c3b3b;
+   
 }
 
 .unit {
     text-align: center;
     background-color: #FEFAE0;
     width: 80%;
-    margin: 5% auto;
-    height: 50px;
+    margin: 3% auto;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,12 +116,10 @@
     justify-content: space-around;
 }
 
-.menu__routes_title {
-    text-align: left;
+.menu__routes_title {    
     padding-left: 3%;
-    font-size: 16px;
-    color: #3c3b3b;
-    margin-top: 32%;
+    font-size: 16px;    
+    margin-top: 25%;
 }
 
 .menu__routes_way {
@@ -162,7 +157,7 @@
     display: flex;
     padding: 5%;
     background-color: #FAEDCD;
-    margin: 3%;
+    margin: 15% 3% 3% 3%;
     border-radius: 30px;
 }
 
@@ -214,9 +209,7 @@
     margin: auto;
     height: 55px;
     border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex;  
 }
 
 .menu-personal-data__items {    
@@ -237,8 +230,7 @@
 }
 
 .menu-personal-data__name {
-    font-size: 12px;
-    color: #3c3b3b; 
+    font-size: 12px;    
     padding-right: 10%;
 }
 
