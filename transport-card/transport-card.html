@@ -20,28 +20,22 @@
         <h3 class="menu__item_user-name menu__item menu__item_user"><b>Transport card</b></h3>          
         <a class="menu__item menu__item_symbol" href=""><i class="fa-solid fa-ellipsis"></i></a>
     </div>
-    <div class="unit">
-        <div class="unit__tool">
-            <b class="unit__tool_item">Payments</b>
+    <div class="card">
+        <div id="card__items">
+            <div class="card__item active" data-btn="1">Payments</div>
+            <div class="card__item" data-btn="2">Card</div>
+            <div class="card__item" data-btn="3">Tickets</div>
         </div>
-        <div class="unit__tool unit__tool_style">
-            <b class="unit__tool_item">Card</b>
-        </div>
-        <div class="unit__tool">
-            <b class="unit__tool_item">Tickets</b>
-        </div>
-    </div>   
-    <div class="credit-card">
-        <h3 class="credit-card__title">
-            <b>Public transport</b>
-        </h3>
-        <div class="credit-card__data">
-            <span class="credit-card__data-numbers"><b>1234 5678 9012 3456</b></span>
-            <span class="credit-card__data-amount"><b>$ 23.67</b></span>
-        </div>
-        <div class="credit-card__other">
-            <span class="credit-card__other_info-zone">All city zones</span>
-            <span class="credit-card__other_info-card">Exp.09/04/2024</span>
+        <div id="card__styles">
+            <div class="card__style active" data-content="1">
+                <h3>Your Payments</h3>
+            </div>
+            <div class="card__style" data-content="2">
+                <h3>Your Card</h3>
+            </div>
+            <div class="card__style" data-content="3">
+                <h3>Your Tickets</h3>
+            </div>            
         </div>
     </div>
     <div class="button">
@@ -128,6 +122,6 @@
         </a>
     </div>
       
-    
+    <script src="js/js.js"></script>
 </body>
 </html>

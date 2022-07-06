@@ -33,75 +33,44 @@
     background-color: #fefae0;
     border-radius: 10px;
 }
-.unit {
-    text-align: center;
-    background-color: #E9EDC9;
-    width: 80%;
-    margin: 5% auto;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
+
+.card {    
+  width: 85%;
+  margin: auto;
 }
 
-.unit__tool {
-
-    display: inline-block;
-    width: 30%;
-    margin: auto;
+#card__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.unit__tool_item {
-    font-size: 14px;
-    color: #3c3b3b;
+.card__item {
+  width: 30%;
+  text-align: center;
+  background-color: #d4a373;
+  border-radius: 5px;
+  margin: 2% auto;
+  height: 22px;
 }
 
-.unit__tool_style {
-    background-color: #d4a373;
-    border-radius: 15px;
-    margin: 0;
-    box-shadow: 0px 0px 9px 3px #e9edc9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+.card__item.active{
+  background-color: #ceef60;
 }
 
-.credit-card {
-    background: #FAEDCD;
-    width: 80%;
-    margin: auto;
-    border-radius: 30px;
-    height: 150px;
-    display: block;
-    text-align: left;
-    padding: 5%;
-  }
+.card__style.active{
+  display: flex;
+  background-color: #ceef60;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 8% auto;
+  height: 150px;
+}
 
-  .credit-card__title {
-    font-size: 14px;
-  }
-
-  .credit-card__data {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .credit-card__data-numbers {
-    font-size: 10px;
-  }
-
-  .credit-card__data-amount {
-    font-size: 14px;   
-  }
-
-  .credit-card__other {
-    font-size: 8px;
-    margin: 18% 0 0 0;
-    display: flex;
-    justify-content: space-between;
-  }
+.card__style{
+  display: none;
+}
 
   .button {
     width: 80%;
