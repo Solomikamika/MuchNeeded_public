@@ -23,19 +23,43 @@
         </div>        
     </div>
     <div class="data">
-        <div class="data__item">
-            <b class="data__amount">8</b><br><b class="data__title">Rides</b>
+        <div class="datas active" data-content="1">
+            <div class="data__item">
+                <b class="data__amount">8</b><br><b class="data__title">Rides</b>
+            </div>
+            <div class="data__item">
+                <b class="data__amount">14 $</b><br><b class="data__title">Spent</b>
+            </div>
+            <div class="data__item">
+                <b class="data__amount">1</b><br><b class="data__title">Tickets</b>
+            </div>
         </div>
-        <div class="data__item">
-            <b class="data__amount">14 $</b><br><b class="data__title">Spent</b>
+        <div class="datas" data-content="2">
+            <div class="data__item">
+                <b class="data__amount">13</b><br><b class="data__title">Rides</b>
+            </div>
+            <div class="data__item">
+                <b class="data__amount">22 $</b><br><b class="data__title">Spent</b>
+            </div>
+            <div class="data__item">
+                <b class="data__amount">7</b><br><b class="data__title">Tickets</b>
+            </div>
         </div>
-        <div class="data__item">
-            <b class="data__amount">1</b><br><b class="data__title">Tickets</b>
+        <div class="datas" data-content="3">
+            <div class="data__item">
+                <b class="data__amount">21</b><br><b class="data__title">Rides</b>
+            </div>
+            <div class="data__item">
+                <b class="data__amount">36 $</b><br><b class="data__title">Spent</b>
+            </div>
+            <div class="data__item">
+                <b class="data__amount">11</b><br><b class="data__title">Tickets</b>
+            </div>
         </div>
-        <div class="unit">            
-            <b class="unit__tool unit__tool_style unit__tool_item">Day</b>            
-            <b class="unit__tool unit__tool_item">Week</b>            
-            <b class="unit__tool unit__tool_item">Month</b>            
+        <div id="unit">            
+            <b class="unit__tool active" data-btn="1">Day</b>            
+            <b class="unit__tool" data-btn="2">Week</b>            
+            <b class="unit__tool" data-btn="3">Month</b>            
         </div>
     </div>
     <h3 class="menu__routes_title">Saved routes</h3>
@@ -96,6 +120,8 @@
             <i class="fa-solid fa-map-location-dot"></i>
         </a>
     </div>
+
+    <script src="JS/app.js"></script>
 </body>
 </html>
 

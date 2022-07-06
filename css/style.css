@@ -57,6 +57,14 @@
     border-radius: 30px;
 }
 
+.datas{
+    display: none;
+}
+
+.datas.active{
+    display: block;
+}
+
 .data__item {
     display: inline-block;
     width: 27.5%;
@@ -74,7 +82,7 @@
    
 }
 
-.unit {
+#unit {
     text-align: center;
     background-color: #FEFAE0;
     width: 80%;
@@ -87,18 +95,14 @@
 }
 
 .unit__tool {
-
     display: inline-block;
     width: 30%;
     margin: auto;
-}
-
-.unit__tool_item {
     font-size: 14px;
     color: #3c3b3b;
 }
 
-.unit__tool_style {
+.unit__tool.active{
     background-color: #D4A373;
     height: 100%;
     width: 30%;
